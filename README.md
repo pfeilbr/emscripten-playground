@@ -12,7 +12,9 @@ learn and experiment with [emscripten](http://kripken.github.io/emscripten-site/
 # ~/dev/emsdk_portable
 
 # source in environment to update PATH and make tools available
+# could add to .bash_profile to make available in all shells
 $ source ~/dev/emsdk_env.sh
+
 
 # needed to add python2 symlink (see https://github.com/kripken/emscripten/issues/3872)
 $ cd /usr/local/bin
